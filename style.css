@@ -1,0 +1,58 @@
+img{
+    height:250px;
+    width: 49%;
+    max-width: 400px;
+}
+.fc img{
+    width: 50%;
+    object-fit: cover;
+    max-width: none;
+}
+#dogs img{
+    width: 32%;
+    height: 400px;
+    max-height: 35vw;
+    object-fit:fill;
+    max-width: none;
+}
+.big{
+    width: 100%;
+    height: auto;
+    max-height: 900px;
+    max-width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+span{
+    color: red;
+}
+body{
+    background-color: rgb(252, 210, 95);
+}
+h1{
+    font-size: 50px;
+    font-family: 'Goudy Old Style';
+}
+h2{
+    font-size: 25px;
+}
+ul{
+    display: flex;
+    list-style-type: none; 
+    text-align: center;
+    justify-content: space-evenly;
+}
+li{
+    display: inline-block;
+}
+.circle{
+    border: solid;
+    border-radius: 50%;
+    border-color: red;
+    border-width: 7px;
+}
+.flex{
+    display: flex;
+    
+}
